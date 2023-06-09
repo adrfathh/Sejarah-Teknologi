@@ -1,0 +1,69 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background-image: url(../images/background-teknologi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(58, 33, 19, 0.5);
+    height: 5rem;
+    padding: 0 40%;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.cover {
+    text-align: center;
+    height: 89vh;
+    padding: 19% 0;
+    color: rgb(191, 140, 0);
+    font-weight: bold;
+}
+
+.blockquote {
+    font-size: 30px;
+}
+
+.blockquote-footer {
+    font-size: 15px;
+}
+
+                    /* MATERI */
+
+/* POIN 1 */
+
+.materi {
+    background-color: rgba(70, 56, 44, 0.5);
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.paragraph {
+    margin: 3% 0;
+}
+
+.paragraph h3 {
+    color: rgb(191, 140, 0);
+    font-weight: bold;
+}
+
+.text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lead {
+    padding-right: 5%;
+}
